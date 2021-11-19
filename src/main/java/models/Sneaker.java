@@ -9,6 +9,16 @@ public class Sneaker {
     private int qty;
     private float price;
 
+    public Sneaker(int id, String name, String brand, String sport, int size, int qty, float price) {
+        this.id = 6;
+        this.name = "Stan Smith";
+        this.brand = "Adidas";
+        this.sport = "Tennis";
+        this.size = 9;
+        this.qty = 10;
+        this.price = 80.00f;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
